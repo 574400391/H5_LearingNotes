@@ -95,3 +95,7 @@ Internet Explorer 8 及更早 IE 版本的浏览器不支持以上的方式。
 ```
 
 针对IE浏览器html5shiv 是比较好的解决方案。html5shiv主要解决HTML5提出的新的元素不被IE6-8识别，这些新元素不能作为父节点包裹子元素，并且不能应用CSS样式。
+
+## HTML5 Canvas
+
+<canvas>元素是HTML5中的新元素，通过使用该元素，你可以在网页中绘制所需的图形。
