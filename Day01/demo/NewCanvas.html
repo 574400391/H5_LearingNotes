@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <canvas id="myCanvas" width="200" height="100" style="border: 1px solid #c3c3c3;">
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
             您的浏览器不支持Canvas标签
         </canvas>
 
         <script>
             var c = document.getElementById("myCanvas");
             var ctx = c.getContext("2d");
-            ctx.fillStyle = "#FF0000";
-            ctx.filleRect(0, 0, 150, 75);
+            // 绘制矩形
+            // ctx.fillStyle = "#FF0000";
+            // ctx.fillRect(0, 0, 150, 75);
+            
+            // 绘制线条
+            // ctx.moveTo(0,0);
+            // ctx.lineTo(200,100);
+            // ctx.stroke();//类似于link
+
+            // 绘制圆形
+            ctx.beginPath();
+            ctx.arc(95,50,40,0,2*Math.PI);
+            ctx.stroke();
+
+            // 绘制文字
+            ctx.font = "30px Arial";
+            ctx.fillText("Hello World", 10, 50);
         </script>
     </body>
 </html>
