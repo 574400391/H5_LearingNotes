@@ -340,4 +340,3 @@ document.getElementById("result").innerHTML="网站名：" + localStorage.sitena
 #### sessionStorage对象
 sessionStorage 方法针对一个 session 进行数据存储。当用户关闭浏览器窗口后，数据会被删除。
 
-[最佳实践](https://www.w3cschool.cn/tanzt0/af72kozt.html)
