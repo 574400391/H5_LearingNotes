@@ -275,6 +275,13 @@ CSS盒模型本质上是一个盒子，封装周围的HTML元素，它包括：�
 
 ![avatar](https://7n.w3cschool.cn/statics/images/course/box-model.gif)
 
+说明：
+- Margin（外边距） - 清除边框区域。Margin没有背景颜色，它是完全透明
+- Border（边框） - 边框周围的填充和内容。边框是受到盒子的背景颜色影响
+- Padding（内边距） - 清除内容周围的区域。会受到框中填充的背景颜色影响
+- Content（内容） - 盒子的内容，显示文本和图像
+
+ps.[CSS盒模型科普](https://www.w3cschool.cn/css_series/css_series-6tza24q1.html)
 
 ----
 ps.这个没啥要写的，大体上在W3C上过一遍直接跳到[HTML5 & CSS实战](https://www.w3cschool.cn/codecamp/list?pename=html5_and_css_camp)玩
