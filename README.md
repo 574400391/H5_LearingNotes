@@ -10,9 +10,7 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - [x] CSS部分：[W3Cschool CSS教程](https://www.w3cschool.cn/css/)
 - [x] HTML5&&CSS练习：[HTML5&CSS编程实战](https://www.w3cschool.cn/codecamp/list?pename=html5_and_css_camp)
 - [ ] JavaScript学习：[JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-- [ ] JavaScript练习：[JavaScript编程实战](https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp)
-- [ ] Bootstrap练习
-- [ ] jQuery练习
+- [x] JavaScript练习：[JavaScript编程实战](https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp)
 - [ ] vue.js学习、配置脚手架
 
 

@@ -27,6 +27,11 @@ myImage.onclick = function() {
 ### JavaScript 全等于比较运算符===
 全等（===）是相对于相等操作符（==）的一种操作符。与相等操作符不同的是全等比较严格，它会同时比较元素的值和 数据类型。
 
+
+### html中引入外部js文件为何放在body标签结尾处
+
+script标签可以放在html里面任何位置，放在body后面是等body载入完后，依次往下执行，避免，先载入了js，缺找不到body里面的dom对象而造成js出错，所以一般要用window.onload来判断页面是否载入完成。
+
 ----
 
 # 使用Bootstrap设计响应式页面
@@ -84,3 +89,12 @@ var app = new Vue({
   }
 })
 ```
+## vue指令
+- v-bind: 将这个元素节点的 title 特性和 Vue 实例的 message 属性保持一致
+- v-if: 条件判断
+- v-for: 循环
+- v-on: 添加事件监听
+- v-model: 实现表单输入和应用状态之间的双向绑定
+
+## vue生命周期
+![Aaron Swartz](https://cn.vuejs.org/images/lifecycle.png)
