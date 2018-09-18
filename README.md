@@ -47,3 +47,4 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 ### [Day04](/Day04/README.md)
 - html5&Css小练习
 - 学习JavaScript
+- 配置vue开发环境
