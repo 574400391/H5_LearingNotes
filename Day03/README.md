@@ -1,3 +1,1 @@
-### 做做小练习...
-
-[HTML5&CSS编程实战](https://www.w3cschool.cn/codecamp/list?pename=html5_and_css_camp)
+### [HTML5&CSS编程实战](https://www.w3cschool.cn/codecamp/list?pename=html5_and_css_camp)
