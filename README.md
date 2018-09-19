@@ -13,6 +13,19 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - [x] JavaScript练习：[JavaScript编程实战](https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp)
 - [ ] vue.js学习、配置脚手架
 
+### 备忘录：
+- 开源项目：
+    - [ ] [NeteaseCloudWebApp](https://github.com/javaSwing/NeteaseCloudWebApp)
+    - [ ] [vue-weixin](https://github.com/bailichen/vue-weixin)
+    - [ ] [vue-wechat](https://github.com/useryangtao/vue-wechat)
+    - [ ] [vue-WeChat](https://github.com/zhaohaodang/vue-WeChat)
+    - [ ] [vue-meituan](https://github.com/bxm0927/vue-meituan)
+    - [ ] [vue-ts-daily](https://github.com/xiaomuzhu/vue-ts-daily)
+- 视频资源：
+    - [ ] [vue2.5入门](https://www.imooc.com/learn/980)
+    - [ ] [Vue+Webpack打造todo应用](https://www.imooc.com/learn/935)
+- 相关笔记：
+    - [ ] [vue基础](https://github.com/smyhvae/Web/blob/72f637549374f4fb3eced96aaa439028276c41f8/21-Vue%E5%9F%BA%E7%A1%80/00-Vue%E7%9A%84%E4%BB%8B%E7%BB%8D%E5%92%8Cvue-cli.md)
 
 [HTML5最佳实践](https://www.w3cschool.cn/tanzt0/af72kozt.html)
 
@@ -20,7 +33,7 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - VS Code
 
 ### 开发框架
-- vue
+- vue2
 
 ### 备忘（相关框架/库）
 - 小程序： mpVue
@@ -33,11 +46,11 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 ## 每日总结
 
 ### [Day01](/Day01/README.md)
-- 学习HTML5
+- 学习HTML5基础语法
 
 ### [Day02](/Day02/README.md)
-- 学习HTML5...
-- 学习CSS
+- 学习HTML5基础语法...
+- 学习CSS基础语法
 
 ### [Day03](/Day03/README.md)
 - html5&Css小练习
@@ -46,3 +59,6 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - html5&Css小练习
 - 学习JavaScript
 - 配置vue开发环境
+
+### [Day05](/Day05/README.md)
+- 练习vue实例
