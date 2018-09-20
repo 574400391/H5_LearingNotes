@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercise 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id='root'>
+        <div :title='title' @click='handleClick'>{{text1}}</div>
+        <input v-model='content'/>
+        <div>{{content}}</div>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#root',
+            data: {
+                text1: 'Text1',
+                title: 'this is the title',
+                content: 'content1234'
+            },
+            methods: {
+                handleClick: function () {
+                    this.title = 'click the title'
+                    this.text1 = 'click Text1'
+                }
+            }
+        })
+    </script>
+</body>
+</html>

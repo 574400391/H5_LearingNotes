@@ -11,7 +11,9 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - [x] HTML5&&CSS练习：[HTML5&CSS编程实战](https://www.w3cschool.cn/codecamp/list?pename=html5_and_css_camp)
 - [ ] JavaScript学习：[JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 - [x] JavaScript练习：[JavaScript编程实战](https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp)
-- [ ] vue.js学习、配置脚手架
+- [x] vue.js学习、配置脚手架
+- [ ] 使用webpack配置开发环境
+
 
 ### 备忘录：
 - 开源项目：
@@ -22,10 +24,8 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
     - [ ] [vue-meituan](https://github.com/bxm0927/vue-meituan)
     - [ ] [vue-ts-daily](https://github.com/xiaomuzhu/vue-ts-daily)
 - 视频资源：
-    - [ ] [vue2.5入门](https://www.imooc.com/learn/980)
+    - [x] [vue2.5入门](https://www.imooc.com/learn/980)
     - [ ] [Vue+Webpack打造todo应用](https://www.imooc.com/learn/935)
-- 相关笔记：
-    - [ ] [vue基础](https://github.com/smyhvae/Web/blob/72f637549374f4fb3eced96aaa439028276c41f8/21-Vue%E5%9F%BA%E7%A1%80/00-Vue%E7%9A%84%E4%BB%8B%E7%BB%8D%E5%92%8Cvue-cli.md)
 
 [HTML5最佳实践](https://www.w3cschool.cn/tanzt0/af72kozt.html)
 
@@ -62,3 +62,8 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 
 ### [Day05](/Day05/README.md)
 - 练习vue实例
+
+### [Day06](/Day06/README.md)
+- 练习vue实例
+- 练习使用vue-cli
+- 学习webpack

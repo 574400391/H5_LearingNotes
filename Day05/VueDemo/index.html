@@ -9,15 +9,22 @@
 </head>
 <body>
     <!-- 挂载点、模板、实例之间的关系 -->
-    <div id="example"></div>
+    <div id="example">
+        <div @click="handleClick"> {{content}}</div>
+    </div>
 
     <script>
         var vm = new Vue({
             el: '#example',
-            template: '<h1 v-text="number"></h1>',
             data: {
                 message: 'Hello vue',
-                number: 123
+                number: 123,
+                content: "Hello"
+            },
+            methods: {
+                handleClick: function () {
+                    this.content = "world"
+                }
             }
         })
     </script>
