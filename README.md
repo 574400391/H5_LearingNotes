@@ -13,6 +13,9 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - [x] JavaScript练习：[JavaScript编程实战](https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp)
 - [x] vue.js学习、配置脚手架
 - [ ] 使用webpack配置开发环境
+- [ ] ECMAScript6
+- [ ] Webpack
+- [ ] NPM
 
 
 ### 备忘录：
@@ -67,3 +70,5 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - 练习vue实例
 - 练习使用vue-cli
 - 学习webpack
+
+### [Day07](/Day07/README.md)
