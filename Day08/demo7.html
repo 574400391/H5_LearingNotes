@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vue中的组件间传值</title>
+  <script src="./lib/vue-2.4.0.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <com2 @func="show"></com2>
+  </div>
+
+  <template id="tmp1">
+    <div>
+      <h3>这是子组件</h3>
+      <input type="button" value="子组件按钮" @click="myclick">
+    </div>
+  </template>
+  <script>
+    var com2 = {
+      template: '#tmp1',
+      methods: {
+        myclick() {
+          //emit代表触发
+          this.$emit('func')
+        }
+      }
+    }
+    var vm = new Vue({
+      el: '#app',
+      data: {},
+      methods: {
+        show() {
+          console.log('父组件show');
+        }
+      },
+      components: {
+        com2
+      }
+    })
+  </script>
+
+</body>
+
+</html>

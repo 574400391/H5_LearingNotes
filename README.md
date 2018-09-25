@@ -45,8 +45,24 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 - 路由管理： vue-router（不兼容mpvue）
 - rem布局
 - 搭建vue的脚手架
+
+## TODO：问题：
+
+1. 网络请求时跨域问题
+    ```
+        const API_PROXY = 'https://bird.ioliu.cn/v1/?url='
+          this.$http.get(API_PROXY + 'http://music.163.com/api/playlist/detail?id=19723756')
+            .then(function (res) {
+              console.log(res)
+            }, function (error) {
+              console.log(error)
+            })
+    ```
+2. vue.js开发的web app生产/测试部署问题
+
+day4 05
 ----
-## 每日总结
+## 每日总结 
 
 ### [Day01](/Day01/README.md)
 - 学习HTML5基础语法
