@@ -2,6 +2,12 @@
   <div>
     <h1>组件{{msg}}</h1>
 
+    <mt-button type="danger" size="large"></mt-button>
+
+        <button type="button" class="mui-btn mui-btn-royal">
+      紫色
+    </button>
+
     <router-link to="/account">Account</router-link>
     <router-link to="/goodslist">GoodsList</router-link>
 

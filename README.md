@@ -40,7 +40,7 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 
 ### 备忘（相关框架/库）
 - 小程序： mpVue
-- UI框架： element-ui/mini-ui (不兼容mpvue)
+- UI框架： element-ui/mini-ui (不兼容mpvue)/iview
 - 状态管理： vuex
 - 路由管理： vue-router（不兼容mpvue）
 - rem布局
@@ -61,7 +61,7 @@ ps. 前期仅作简单的练习，权当查漏补缺。具体相关知识会在�
 2. vue.js开发的web app生产/测试部署问题
 3. path.join(__dirname, './src/index.html')是什么意思？
 
-day6 1
+day8 8
 ----
 ## 每日总结 
 
