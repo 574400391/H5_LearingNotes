@@ -4,7 +4,7 @@
     <!-- 顶部Header区域 -->
     <mt-header fixed title="Test_Demo"></mt-header>
     <!-- 中间的路由 router-view区域 -->
-    <transition >
+    <transition>
       <router-view></router-view>
     </transition>
     <!-- 底部tabbar区域 -->
@@ -51,23 +51,24 @@
 <style scoped>
   .app-contanier {
     padding-top: 40px;
-overflow-x: hidden;
+    padding-bottom: 50px;
+    overflow-x: hidden;
   }
 
-  
-.v-enter {
-  opacity: 0;
-  transform: translateX(100%);
-}
 
-.v-leave-to {
-  opacity: 0;
-  transform: translateX(-100%);
-  position: absolute;
-}
+  .v-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
 
-.v-enter-active,
-.v-leave-active {
-  transition: all 0.5s ease;
-}
+  .v-leave-to {
+    opacity: 0;
+    transform: translateX(-100%);
+    position: absolute;
+  }
+
+  .v-enter-active,
+  .v-leave-active {
+    transition: all 0.5s ease;
+  }
 </style>
